@@ -1,0 +1,16 @@
+{
+    "schema_version": 1,
+    "name": "ycbcr-display",
+    "exports": ["src"],
+    "license_files": ["LICENSE"],
+    "dependencies": {
+        "color-convert": {
+            "git": "https://github.com/jhelferty-nv/color-convert.git",
+            "version": ">=1.0.0 <2.0.0"
+        },
+        "color-encoding": {
+            "git": "https://github.com/jhelferty-nv/color-encoding.git",
+            "version": ">=1.0.0 <2.0.0"
+        }
+    }
+}

@@ -23,6 +23,6 @@ public PreviewResult previewRec709Pixel(float3 ycbcr)
     result.isLegalLuma = isLegalLumaSample(ycbcr.x);
     result.encodingRevision = encodingRevision();
     result.converterRevision = converterRevision();
-    result.displayRevision = 100;
+    result.displayRevision = 110;
     return result;
 }
